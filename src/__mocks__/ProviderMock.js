@@ -9,10 +9,10 @@ import reducer from '../reducers';
 const store = createStore(reducer, initialState);
 const history = createBrowserHistory();
 
-const ProviderMock = props => {
+const ProviderMock = props => (
   <Provider store={store}>
     <Router history={history}>{props.children}</Router>
-  </Provider>;
-};
+  </Provider>
+);
 
 export default ProviderMock;
