@@ -16,20 +16,3 @@ exports[`Footer snapshot It should Check the UI component footer 1`] = `
   </p>
 </div>
 `;
-
-exports[`It should a Footer snapshot Check the UI component footer 1`] = `
-<div
-  className="Footer"
->
-  <p
-    className="Footer-title"
-  >
-    Platzi Store
-  </p>
-  <p
-    className="Footer-copy"
-  >
-    Todos los Izquierdos Reservados
-  </p>
-</div>
-`;
