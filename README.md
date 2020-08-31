@@ -1,2 +1,2 @@
-# platzi-store
-Curso de Pruebas unitarias con Jest
+# Test
+Unit Testing Course with Jest
